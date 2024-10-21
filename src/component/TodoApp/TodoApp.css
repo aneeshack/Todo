@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background-color: rgb(35, 141, 167) ;
+    font-family: sans-serif;
+}
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+.todo-container{
+    width: 500px;
+    transform: translateY(-50%,-50%);
+    text-align: center;
+}
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    color: #ababab;
+}
+.input-section{
+    background-color: #ececec;
+    padding: 18px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgb(32, 20, 20);
+}
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.input::placeholder{
+    color: silver;
+}
+
+ul{
+    text-align: left;
+    padding: 0;
+}
+ul li{
+   list-style: none;
+   background-color: white;
+   padding: 20px;
+   border-radius: 5px;
+   margin-bottom: 15px;
+   color: gray;
+   box-shadow: 0 4px 6px rgb(32, 20, 20);
+   display: flex;
+   align-items: center;
+}
+ul li .icons{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
+ul li .fa-edit{
+    padding-right: 15px;
+}
+.editing{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.editing button{
+    background-color: rgb(7, 59, 73);
+    color:white;
+    border-radius: 5px;
+}
+.editing button i{
+    color: #e1e8ed;
+}
+.edit-input{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
